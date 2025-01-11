@@ -1,0 +1,25 @@
+body {
+    background: teal;
+}
+
+h1 {
+    color: wheat;
+}
+
+a {
+    display: block;
+    width: 200px;
+    color: teal;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    background: wheat;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+a:hover {
+    color: black;
+    background: white;
+}

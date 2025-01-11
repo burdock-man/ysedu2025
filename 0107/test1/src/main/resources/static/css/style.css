@@ -1,0 +1,67 @@
+
+* {
+    text-decoration: none;
+}
+
+body {
+    background: teal;
+}
+
+h1 {
+    position: relative;
+    left: 30px;
+}
+
+h1 a {
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    position: relative;
+    color: white;
+    top: -10px;
+}
+
+.wrap {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid wheat;
+    padding: 20px;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.3;
+    margin-right: 20px;
+}
+
+.nav > a {
+    color: wheat;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.nav > a:hover {
+    background: wheat;
+    color: teal;
+}
+
+.article {
+    /* background: cyan; */
+    position: relative;
+    flex-grow: 0.6;
+    border-left: 1px solid wheat;
+    display: flex;
+    align-items: center;
+    /* padding-left: 20px; */
+}
+
+.article span {
+    color: white;
+    padding: 0 20px;
+}

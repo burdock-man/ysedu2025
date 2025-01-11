@@ -1,0 +1,178 @@
+/* ============================================================
+    셋팅
+============================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-color: black;
+    /* font-size: 10px; */
+}
+
+body {
+    background: black;
+}
+
+
+/* ============================================================
+    테이블
+============================================================*/
+
+table {
+    margin: 20px auto 0;
+    padding: 10px;
+    background: teal;
+    /* width: 600px; */
+    /* table-layout: fixed; */
+    border-radius: 10px;
+}
+
+
+/* ============================================================
+    결과, 계산식
+============================================================*/
+
+.header > td {
+    width: 500px;
+    padding: 0 10px 10px;
+    text-align: center;
+    border: none;
+}
+
+.firstLine > td {
+    height: 80px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.firstLine > td:nth-child(1) {
+    border-radius: 10px 0 0 0;
+}
+
+.firstLine > td:nth-child(2) {
+    border-radius: 0 10px 0 0;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.secondLine > td {
+    height: 50px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+
+.secondLine > td:nth-child(1) {
+    border-radius: 0 0 0 10px;
+}
+
+.secondLine > td:nth-child(2) {
+    height: 50px;
+    width: 300px;
+    color: rgba(255,255,255,1);
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 0 0 10px 0;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/* ============================================================
+    숫자 패드
+============================================================*/
+
+.numLine > td:nth-child(1), 
+.numLine > td:nth-child(2), 
+.numLine > td:nth-child(3) {
+    width: 50px;
+    height: 50px;
+}
+
+.numLine > td:nth-child(4) {
+    width: 50px;
+}
+
+.numFirst > td {
+    background: rgba(0,0,0,0.6);
+}
+
+.numFirst > td:nth-child(1) {
+    background: rgba(255, 99, 71, 0.9);
+    border-radius: 10px 0 0 0;
+}
+
+.numFirst > td:nth-child(4) {
+    border-radius: 0 10px 0 0;
+}
+
+.numSecond > td,
+.numThird > td,
+.numFourth > td,
+.numFifth > td {
+    color: black;
+    background: rgba(255,255,255,0.6);
+}
+
+.numSecond > td:nth-child(4) {
+    color: white;
+    background: rgba(0,0,0,0.6);
+}
+
+.numFourth > td:nth-child(4) {
+    color: white;
+    background: rgba(0,0,0,0.6);
+    border-radius: 0 0 10px 0;
+}
+
+.numFifth > td:nth-child(1) {
+    border-radius: 0 0 0 10px;
+}
+
+.numFifth > td:nth-child(2) {
+    color: white;
+    background: rgba(0,0,0,0.6);
+}
+
+
+/* ============================================================
+    숫자패드 호버
+============================================================*/
+
+.numFirst > td:nth-child(1):hover,
+.numFirst > td:nth-child(2):hover,
+.numFirst > td:nth-child(3):hover,
+.numFirst > td:nth-child(4):hover,
+.numSecond > td:nth-child(1):hover,
+.numSecond > td:nth-child(2):hover,
+.numSecond > td:nth-child(3):hover,
+.numSecond > td:nth-child(4):hover,
+.numThird > td:hover,
+.numFourth > td:hover,
+.numFifth > td:hover {
+    border-color: tomato;
+}
+
+
+/* ============================================================
+    로그
+============================================================*/
+
+.numFirst > td:nth-child(5) {
+    border-radius: 10px 10px 0 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.numSecond > td:nth-child(5) {
+    color: rgba(255,255,255,0.8);
+    font-weight: normal;
+    text-align: left;
+    padding: 0 10px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 0 0 10px 10px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello!</title>
+<!--    <link rel="stylesheet" href="../static/css/style.css"> 이건 안됨.-->
+<!--    서버를 사용할땐 ../static/ 스태틱을 인식 못함.-->
+<!--    <link rel="stylesheet" href="/css/style.css"> 이건 된다. -->
+<!--    위에걸 써도 되지만 th:href를 사용하는 이유는 타임리프를 사용하고있다고 명시하는것. -->
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <h1>Hello</h1>
+    <form>
+        <input type="text" placeholder="이름을 적으세용">
+        <button>submit</button>
+    </form>
+<script th:src="@{/js/main.js}"></script>
+</body>
+</html>
