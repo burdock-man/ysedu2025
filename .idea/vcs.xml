@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/0110/c702" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/0110/sbb-mybatis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/0113/c702" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/0113/sbb-mybatis" vcs="Git" />
   </component>
 </project>
